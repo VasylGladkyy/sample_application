@@ -9,6 +9,8 @@
 !/log/.keep
 !/tmp/.keep
 
+/spring/*.pid
+
 /storage/*
 !/storage/.keep
 
