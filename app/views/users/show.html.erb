@@ -1,0 +1,5 @@
+<section class="user-show">
+  <%= @user.name %>, <%= @user.email %>
+  <br>
+  <%= @user.created_at %>, <%= @user.updated_at if @user.updated_at%>
+</section>
