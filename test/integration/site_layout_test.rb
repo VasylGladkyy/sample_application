@@ -10,7 +10,14 @@ class SiteLayoutTest < ActionDispatch::IntegrationTest
     assert_select 'a[href=?]', contact_path
     get contact_path
     assert_select "title", full_title("Contact")
+
     get signup_path
     assert_select "title", full_title("Sign up")
+
+    @user = users(:archer)
+    log_in_as(@user)
+
+    get users_path
+    assert_select "title", full_title("All users")
   end
 end
