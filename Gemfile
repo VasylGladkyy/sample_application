@@ -11,6 +11,10 @@ gem 'sass-rails', '~> 5.0'
 
 gem 'bootstrap-sass', '3.3.7'
 
+gem 'will_paginate',           '3.1.7'
+
+gem 'bootstrap-will_paginate', '1.0.0'
+
 gem 'bcrypt',         '3.1.12'
 
 gem 'uglifier', '>= 1.3.0'
@@ -28,6 +32,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   gem 'sqlite3', '1.3.13'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'faker', '1.7.3'
 end
 
 group :development do
