@@ -29,10 +29,11 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 
+gem 'faker', '1.7.3'
+
 group :development, :test do
   gem 'sqlite3', '1.3.13'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'faker', '1.7.3'
 end
 
 group :development do
