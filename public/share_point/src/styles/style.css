@@ -379,6 +379,15 @@
 
   .documents-blocks .block {
     margin-top: 15px; } }
+@media (min-width: 1200px) {
+  .img-main {
+    width: 860px; }
+
+  .img-four {
+    width: 430px; }
+
+  .img-blue {
+    width: 397px; } }
 .bolder {
   font-weight: bold;
   color: #373737; }
