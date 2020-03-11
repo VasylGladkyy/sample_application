@@ -1,0 +1,46 @@
+.navigation
+  margin-top: 25px
+  &-container
+    margin: 0 20px 0 65px
+
+.ts
+  &-logo
+    display: inline-block
+    margin-right: 15px
+    padding: 15px
+    background-color: $site-color
+    color: $text-color-white
+    font-size: 26px
+  &-navigation
+    display: inline-block
+    &__nav
+      float: left
+    li
+      margin-right: 25px
+      float: left
+      list-style: none
+
+      a
+        text-decoration: none
+        color: $text-color-black
+
+        &:hover
+          color: $site-color
+          font-weight: 700
+
+  &-find_form
+    &__description
+      text-align: right
+      .share-logo
+        color: $site-color
+      .input
+        margin-top: 5px
+        padding-left: 15px
+        border: 2px solid $grey-color
+        border-radius: 1px
+        color: $text-color-black
+        background: url("../img/magnifier.png") no-repeat 5% 2%
+        background-size: 25px
+        text-indent: 2em
+
+

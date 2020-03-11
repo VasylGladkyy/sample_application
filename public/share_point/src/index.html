@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/animate.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>SharePoint</title>
+</head>
+<body>
+
+<header class="header navbar-dark bg-dark">
+    <div class="header-left">
+        <button class="header-left__button" id="header_button">
+            <span class="fas fa-th"></span>
+        </button>
+        <div class="header-left__links">
+            <a href="#">Office 365</a>
+            <a href="#">SharePoint</a>
+        </div>
+        <!-- /.header-left-links -->
+    </div>
+    <!-- /.header-left -->
+    <div class="header-right">
+        <div class="header-left__links">
+            <a href="#" class="skype">
+                <span class="fab fa-skype"></span>
+            </a>
+            <a href="#" class="bell">
+                <span class="far fa-bell"></span>
+            </a>
+            <a href="#" class="cog">
+                <span class="fas fa-cog"></span>
+            </a>
+            <a href="#" class="question">
+                <span class="fas fa-question"></span>
+            </a>
+            <a href="#" class="user">
+                <img src="./img/default-user-icon-8.jpg" alt="user logo">
+            </a>
+        </div>
+        <!-- /.header-left__links -->
+    </div>
+    <!-- /.header-right -->
+</header>
+
+<div class="overlay">
+    <div class="menu">
+        <div class="menu-navigations">
+            <button class="menu-navigations__button" id="navigation_button">
+                <span class="fas fa-th"></span>
+            </button>
+            <a href="#" class="menu-navigations__link">
+                Office
+                <span class="fas fa-arrow-right"></span>
+            </a>
+        </div>
+        <!-- /.menu-navigations -->
+        <div class="menu-apps">
+            <h2>Apps</h2>
+            <div class="menu-apps__icons">
+                <div class="row align-items-center">
+                    <div class="col-6 icon">
+                        <a href="#">
+                            <img src="img/documents/icons/microsoft-word.png" alt="word icon">
+                            Word
+                        </a>
+                    </div>
+                    <!-- /.icon -->
+                    <div class="col-6 icon">
+                        <a href="#">
+                            <img src="img/documents/icons/microsoft-excel.png" alt="excel icon">
+                            Excel
+                        </a>
+                    </div>
+                    <!-- /.icon -->
+                </div>
+                <!-- /.row-->
+                <div class="row align-items-center">
+                    <div class="col-6 icon">
+                        <a href="#">
+                            <img src="img/documents/icons/microsoft-powerpoint.png" alt="powerpoint icon">
+                            Powerpoint
+                        </a>
+                    </div>
+                    <!-- /.icon -->
+                    <div class="col-6 icon">
+                        <a href="#">
+                            <img src="img/documents/icons/microsoft-one_note.png" alt="One Note icon">
+                            OneNote
+                        </a>
+                    </div>
+                    <!-- /.icon -->
+                </div>
+                <!-- /.row-->
+                <div class="row align-items-center">
+                    <div class="col-6 icon">
+                        <a href="#">
+                            <img src="img/documents/icons/microsoft-one_drive.png" alt="one drive icon">
+                            OneDrive
+                        </a>
+                    </div>
+                    <!-- /.icon -->
+                    <div class="col-6 icon">
+                        <a href="#">
+                            <img src="img/documents/icons/microsoft-out-look.png" alt="Out look icon">
+                            OutLook
+                        </a>
+                    </div>
+                    <!-- /.icon -->
+                </div>
+                <!-- /.row-->
+                <div class="row align-items-center">
+                    <div class="col-6 icon">
+                        <a href="#">
+                            <img src="img/documents/icons/skype.png" alt="Skype icon">
+                            Skype
+                        </a>
+                    </div>
+                    <!-- /.icon -->
+                </div>
+                <!-- /.row-->
+            </div>
+            <!-- /.menu-apps__icons -->
+        </div>
+        <!-- /.menu-apps -->
+        <a href="#" class="menu-apps__all-link">
+            All apps
+            <span class="fas fa-arrow-right"></span>
+        </a>
+    </div>
+    <!-- /.menu -->
+</div>
+<!-- /.overlay -->
+
+<section class="navigation">
+    <div class="navigation-container">
+        <div class="row align-items-center">
+            <a href="#">
+                <div class="ts-logo">
+                    <span class="ts-logo__txt">
+                        TS
+                    </span>
+                </div>
+            </a>
+            <!-- /.col ts-logo -->
+            <div class="col-8 ts-navigation">
+                    <div class="ts-navigation__title">
+                        <h2>Topic Site</h2>
+                    </div>
+                    <nav class="ts-navigation__nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Documents</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Site contacts</a></li>
+                        <li><a href="#">Edit</a></li>
+                    </nav>
+            </div>
+            <div class="col-3 ts-find_form">
+                <div class="ts-find_form__description">
+                    <span class="far fa-share-square share-logo"></span> Share site
+                    <input type="text" class="input" placeholder="Search">
+                </div>
+                <!-- /.ts-find_form__description -->
+            </div>
+            <!-- /.ts-find_form -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.navigation-container -->
+</section>
+
+<section class="main">
+    <div class="main-content">
+        <div class="main-content__links">
+            <div class="links-left">
+                <a href="#" class="plus">
+                    <span class="fas fa-plus"></span>
+                </a>
+                <a href="#" class="new">New</a>
+                <a href="#" class="down">
+                    <span class="fas fa-chevron-down"></span>
+                </a>
+            </div>
+            <!-- /.links-left -->
+            <div class="links-right">
+                <a href="#" class="published link">
+                    Published
+                </a>
+                <a href="#" class="edit link">
+                    <span class="fas fa-pen"></span>
+                    Edit
+                </a>
+            </div>
+            <!-- /.links-right -->
+        </div>
+        <!-- /.main-content__links -->
+        <div class="main-content__images">
+            <div class="row justify-content-around">
+                <div class="col-12 col-md-6  img-block animated wow bounceInLeft">
+                    <img src="img/main/photo_2020-03-06_17-09-48.jpg" alt="" class="img-main">
+                    <div class="block"></div>
+                    <!-- /.block -->
+                    <div class="block-main-text">
+                        <p>Welcome! Click Edit at the top right of the page to start customizing</p>
+                        <a href="#">READ MORE <span class="fas fa-chevron-right"></span></a>
+                    </div>
+                    <!-- /.block-text -->
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12 col-md-6 img-block img-right animated wow bounceInLeft" data-wow-delay="0.1s">
+                            <div class="img-blue">
+                                <img src="img/main/photo_2020-03-06_17-09-48.jpg" alt="" class="img-four">
+                                <div class="block-text">
+                                    <p>
+                                        Learn more about your Communication site
+                                    </p>
+                                </div>
+                                <!-- /.block-text -->
+                            </div>
+                            <!-- img-blue -->
+                        </div>
+                        <!-- /.col-6 -->
+                        <div class="col-12 col-md-6 img-block animated wow bounceInLeft" data-wow-delay="0.2s">
+                            <img src="img/main/people.jpg" alt="" class="img-four">
+                            <div class="block-text">
+                                <p>
+                                    Customize this tlo with your own title, image and link
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /.col-6 -->
+                    </div>
+                    <!-- /.row -->
+                    <div class="row">
+                        <div class="col-12 col-md-6 img-block animated wow bounceInLeft" data-wow-delay="0.3s">
+                            <img src="img/main/room.jpg" alt="" class="img-four">
+                            <div class="block-text">
+                                <p>
+                                    Customize this tlo with your own title, image and link
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /.col-6 -->
+                        <div class="col-12 col-md-6 img-block animated wow bounceInLeft" data-wow-delay="0.4s">
+                            <img src="img/main/art.jpg" alt="" class="img-four">
+                            <div class="block-text">
+                                <p>
+                                    Customize this tlo with your own title, image and link
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /.col-6 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.main-content__images -->
+    </div>
+    <!-- /.main-content -->
+</section>
+
+<section class="news">
+    <div class="container">
+        <h2>News</h2>
+        <div class="news-content">
+            <div class="news-content__add">
+                <a href="#">
+                    <span class="fas fa-plus"></span>
+                    Add
+                </a>
+            </div>
+            <!-- /.news-content__add -->
+            <div class="news-content__blocks">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="block animated wow zoomIn" data-wow-delay="0.1s">
+                            <img src="img/news/lights.jpg" alt="" class="img-block">
+                            <div class="block-text">
+                                <h3>Make Your Customer Dream Come Truel</h3>
+                                <p>Our programs is bosnian hand work than earth malefactor puts our customers</p>
+                                <p><span class="bolder">Heretical Muckier</span> Artur 27</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="block animated wow zoomIn" data-wow-delay="0.2s">
+                            <img src="img/news/house_lamps.jpg" alt="" class="img-block">
+                            <div class="block-text">
+                                <h3>Make Your Customer Dream Come Truel</h3>
+                                <p>Our programs is bosnian hand work than earth malefactor puts our customers</p>
+                                <p><span class="bolder">Heretical Muckier</span> Artur 27</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="block animated wow zoomIn" data-wow-delay="0.3s">
+                            <img src="img/news/art_house.jpg" alt="" class="img-block">
+                            <div class="block-text">
+                                <h3>Make Your Customer Dream Come Truel</h3>
+                                <p>Our programs is bosnian hand work than earth malefactor puts our customers</p>
+                                <p><span class="bolder">Heretical Muckier</span> Artur 27</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="block animated wow zoomIn" data-wow-delay="0.4s">
+                            <img src="img/main/room.jpg" alt="" class="img-block">
+                            <div class="block-text">
+                                <h3>Make Your Customer Dream Come Truel</h3>
+                                <p>Our programs is bosnian hand work than earth malefactor puts our customers</p>
+                                <p><span class="bolder">Heretical Muckier</span> Artur 27</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.news-content__blocks -->
+        </div>
+        <!-- /.news-content -->
+    </div>
+</section>
+
+<section class="events">
+    <div class="container">
+        <div class="title">
+            <h2>Events</h2>
+            <a href="#" class="see-all">
+                See all
+            </a>
+        </div>
+        <!-- /.title -->
+        <div class="events-content">
+            <div class="events-content__add">
+                <a href="#">
+                    <span class="fas fa-plus"></span>
+                    Add event
+                </a>
+            </div>
+            <!-- /.events-content__add -->
+            <div class="events-content__blocks">
+                <div class="row ">
+                    <div class="col-12 col-md-3">
+                        <div class="event-block animated wow bounceInLeft">
+                            <div class="number-box">
+                                JUN
+                                <span class="number-box__number">27</span>
+                            </div>
+                            <!-- /.number-box -->
+                            <div class="number-box__text">
+                                <div class="description">
+                                    <span class="bolder">Experience Review</span>
+                                    Contort Inspire
+                                </div>
+                                <!-- /.description -->
+                                <span class="bolder">Tuesday 2:30 AM - 5:00 PM</span>
+                                Conf Appear 24/2001
+                            </div>
+                            <!-- /.number-box__text -->
+                            </div>
+                        <!-- /.event-block -->
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="event-block animated wow bounceInLeft" data-wow-delay="0.1s">
+                            <div class="number-box">
+                                JUN
+                                <span class="number-box__number">29</span>
+                            </div>
+                            <!-- /.number-box -->
+                            <div class="number-box__text">
+                                <div class="description">
+                                    <span class="bolder">Experience Review</span>
+                                    Contort Inspire
+                                </div>
+                                <!-- /.description -->
+                                <span class="bolder">Tuesday 2:30 AM - 5:00 PM</span>
+                                Conf Appear 24/2001
+                            </div>
+                            <!-- /.number-box__text -->
+                        </div>
+                        <!-- /.event-block -->
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="event-block animated wow bounceInLeft" data-wow-delay="0.2s">
+                            <div class="number-box">
+                                JUL
+                                <span class="number-box__number">3</span>
+                            </div>
+                            <!-- /.number-box -->
+                            <div class="number-box__text">
+                                <div class="description">
+                                    <span class="bolder">Experience Review</span>
+                                    Contort Inspire
+                                </div>
+                                <!-- /.description -->
+                                <span class="bolder">Tuesday 2:30 AM - 5:00 PM</span>
+                                Conf Appear 24/2001
+                            </div>
+                            <!-- /.number-box__text -->
+                        </div>
+                        <!-- /.event-block -->
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="event-block animated wow bounceInLeft" data-wow-delay="0.3s">
+                            <div class="number-box ">
+                                JUN
+                                <span class="number-box__number">10</span>
+                            </div>
+                            <!-- /.number-box -->
+                            <div class="number-box__text">
+                                <div class="description">
+                                    <span class="bolder">Experience Review</span>
+                                    Contort Inspire
+                                </div>
+                                <!-- /.description -->
+                                <span class="bolder">Tuesday 2:30 AM - 5:00 PM</span>
+                                Conf Appear 24/2001
+                            </div>
+                            <!-- /.number-box__text -->
+                        </div>
+                        <!-- /.event-block -->
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.events-content__blocks -->
+        </div>
+        <!-- /.events-content -->
+    </div>
+</section>
+
+<section class="documents">
+    <div class="container">
+        <h2>Documents</h2>
+        <div class="documents-blocks">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="block animated wow bounceInLeft">
+                        <div class="block-img">
+                            <a href="#">
+                                <img src="img/documents/powerpoint.jpg" alt="">
+                            </a>
+                            <div class="block-img__icon">
+                                <img src="img/documents/icons/microsoft-powerpoint.png" alt="">
+                            </div>
+                            <!-- /.block-img-icon -->
+                        </div>
+                        <!-- /.block-img -->
+                        <div class="block-description">
+                            <span class="bolder">Cantos Adventure Brawl Programs</span>
+                            <h3>Welcome to the adventure</h3>
+                            <div class="block-description__user">
+                                <div class="user_image">
+                                    VH
+                                </div>
+                                <!-- /.user_image -->
+                                <div class="user_description">
+                                    <span class="bolder show-block">Vasyl Hladkiy</span>
+                                    Jul 27, 2020
+                                </div>
+                                <!-- /.user_description -->
+                            </div>
+                            <!-- /.block-description__user -->
+                        </div>
+                        <!-- /.block-description -->
+                    </div>
+                    <!-- /.block -->
+                </div>
+                <!-- /.col-12 col-md-3 -->
+                <div class="col-12 col-md-3">
+                    <div class="block  animated wow bounceInLeft" data-wow-delay="0.1s">
+                        <div class="block-img">
+                            <a href="#">
+                                <img src="img/documents/sofa.jpg" alt="">
+                            </a>
+                            <div class="block-img__icon">
+                                <img src="img/documents/icons/microsoft-excel.png" alt="">
+                            </div>
+                            <!-- /.block-img-icon -->
+                        </div>
+                        <!-- /.block-img -->
+                        <div class="block-description">
+                            <span class="bolder">Cantos Adventure Brawl Programs</span>
+                            <h3>Welcome to the adventure</h3>
+                            <div class="block-description__user">
+                                <div class="user_image">
+                                    VH
+                                </div>
+                                <!-- /.user_image -->
+                                <div class="user_description">
+                                    <span class="bolder show-block">Vasyl Hladkiy</span>
+                                    Jul 27, 2020
+                                </div>
+                                <!-- /.user_description -->
+                            </div>
+                            <!-- /.block-description__user -->
+                        </div>
+                        <!-- /.block-description -->
+                    </div>
+                    <!-- /.block -->
+                </div>
+                <!-- /.col-12 col-md-3 -->
+                <div class="col-12 col-md-3">
+                    <div class="block  animated wow bounceInLeft" data-wow-delay="0.2s">
+                        <div class="block-img">
+                            <a href="#">
+                                <img src="img/documents/people_design.jpg" alt="">
+                            </a>
+                            <div class="block-img__icon">
+                                <img src="img/documents/icons/microsoft-word.png" alt="">
+                            </div>
+                            <!-- /.block-img-icon -->
+                        </div>
+                        <!-- /.block-img -->
+                        <div class="block-description">
+                            <span class="bolder">Cantos Adventure Brawl Programs</span>
+                            <h3>Welcome to the adventure</h3>
+                            <div class="block-description__user">
+                                <div class="user_image">
+                                    VH
+                                </div>
+                                <!-- /.user_image -->
+                                <div class="user_description">
+                                    <span class="bolder show-block">Vasyl Hladkiy</span>
+                                    Jul 27, 2020
+                                </div>
+                                <!-- /.user_description -->
+                            </div>
+                            <!-- /.block-description__user -->
+                        </div>
+                        <!-- /.block-description -->
+                    </div>
+                    <!-- /.block -->
+                </div>
+                <!-- /.col-12 col-md-3 -->
+                <div class="col-12 col-md-3">
+                    <div class="block  animated wow bounceInLeft" data-wow-delay="0.3s">
+                        <div class="block-img">
+                            <a href="#">
+                                <img src="img/documents/laptop.jpg" alt="">
+                            </a>
+                            <div class="block-img__icon">
+                                <img src="img/documents/icons/microsoft-powerpoint.png" alt="">
+                            </div>
+                            <!-- /.block-img-icon -->
+                        </div>
+                        <!-- /.block-img -->
+                        <div class="block-description">
+                            <span class="bolder">Cantos Adventure Brawl Programs</span>
+                            <h3>Welcome to the adventure</h3>
+                            <div class="block-description__user">
+                                <div class="user_image">
+                                    VH
+                                </div>
+                                <!-- /.user_image -->
+                                <div class="user_description">
+                                    <span class="bolder show-block">Vasyl Hladkiy</span>
+                                    Jul 27, 2020
+                                </div>
+                                <!-- /.user_description -->
+                            </div>
+                            <!-- /.block-description__user -->
+                        </div>
+                        <!-- /.block-description -->
+                    </div>
+                    <!-- /.block -->
+                </div>
+                <!-- /.col-12 col-md-3 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.documents-blocks -->
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="js/wow.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+.main
+  margin-top: 25px
+  background-color: $light-grey-color
+  &-content
+    &__links
+      padding: 5px 0 5px 50px
+      display: flex
+      justify-content: space-between
+      align-items: center
+      flex-wrap: nowrap
+      color: $grey-color
+      a
+        margin-right: 10px
+        color: $grey-color
+        &:hover
+          text-decoration: none
+          color: $site-color
+      .new
+        font-weight: bold
+      .links
+        &-right
+          .link
+            padding: 7px 22px 7px 22px
+          .published
+            padding-left: 10px
+            padding-right: 10px
+          .edit
+            margin-right: 0
+            background-color: $site-color
+            color: $text-color-white
+  &__images
+    display: flex
+    flex-wrap: nowrap
+
+
+.row
+  max-width: 100%
+
+
+.img-main
+  display: inline-block
+  padding: 2px 0
+  width: 705px
+  height: 350px
+.img-four
+  display: inline-block
+  padding: 2px 0 2px 34px
+  width: 353px
+  height: 175px
+
+.img-block
+  position: relative
+  .block
+    padding: 35px
+    position: absolute
+    left: 0
+    bottom: 50px
+    display: inline-block
+    background-color: $site-color
+  .block-main-text
+    position: absolute
+    left: 80px
+    bottom: 15px
+    p
+      color: $text-color-white
+      font-size: 22px
+    a
+      vertical-align: top
+      color: $text-color-white
+      font-size: 14px
+      &:hover
+        text-decoration: none
+  .block-text
+    position: absolute
+    left: 60px
+    bottom: 10px
+    width: 240px
+    p
+      color: $text-color-white
+      font-size: 16px
+
+.img-blue
+  margin-top: 2px
+  margin-left: 34px
+  width: 320px
+  height: 171px
+  background-color: #0072c5
+  img
+    display: none
+  .block-text
+    left: 80px
+    bottom: 40px

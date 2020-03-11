@@ -4,6 +4,7 @@
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <li class=<%= active_class(root_path) %>><%= link_to "Home", root_path %></li>
+        <li><%= link_to 'SharePoint', share_path %></li>
         <li class=<%= active_class(help_path) %>><%= link_to "Help", help_path %></li>
         <% if logged_in? %>
           <li class=<%= active_class(users_path) %>><%= link_to "Users", users_path %></li>

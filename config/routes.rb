@@ -19,4 +19,6 @@ Rails.application.routes.draw do
   resources :password_resets,     only: %i[new create edit update]
   resources :microposts,          only: %i[create destroy]
   resources :relationships,       only: [:create, :destroy]
+  
+  get '/share', to: redirect('/share_point/src/index.html')
 end

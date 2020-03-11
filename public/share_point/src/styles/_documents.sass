@@ -1,0 +1,52 @@
+.documents
+  margin-top: 50px
+  margin-bottom: 40px
+  h2
+    font-size: 24px
+    font-weight: 500
+  &-blocks
+    margin-top: 10px
+    .block
+      border: 1px solid $grey-color
+      border-radius: 2%
+      display: inline-block
+      width: 215px
+      height: 240px
+      &-img
+        position: relative
+        img
+          width: 100%
+          height: 120px
+        &__icon
+          position: absolute
+          left: 10px
+          bottom: 10px
+          img
+            width: 34px
+            height: 34px
+      &-description
+        padding:
+          top: 10px
+          left: 15px
+        font-size: 10px
+        line-height: 2.5
+        h3
+          font-size: 12px
+          font-weight: bolder
+        &__user
+          margin-top: 27px
+          display: flex
+          justify-content: flex-start
+          align-items: center
+          .user_image
+            margin-right: 5px
+            border-radius: 50%
+            display: inline-block
+            width: 25px
+            height: 25px
+            background-color: $site-color
+            text-align: center
+            color: $text-color-white
+          .user_description
+            display: inline-block
+            line-height: 1.5

@@ -1,0 +1,62 @@
+.overlay
+  padding: 1px 20px 1px 1px
+  box-shadow: 9px 0 7px 0-4px rgba(0, 0, 0, 0.5)
+  position: fixed
+  top: 0
+  left: 0
+  display: none
+  background-color: $background_menu_color
+  width: 320px
+  height: 100%
+  z-index: 2
+  .menu
+    &-navigations
+      display: flex
+      justify-content: space-between
+      align-items: center
+      &__button
+        padding: 10px
+        border: 1px solid $background_menu_color
+        background-color: $background_menu_color
+        color: $text-color-black
+        &:hover
+          background-color: darken($background_menu_color, 5%)
+          border-color: darken($background_menu_color, 5%)
+      &__link
+        font-weight: bold
+        color: $text-color-black
+        .fas
+          margin-left: 10px
+    &-apps
+      margin:
+        top: 40px
+        left: 10px
+      h2
+        font-size: 18pt
+        font-weight: bold
+      &__icons
+        margin-top: 25px
+        margin-left: 2px
+        .row
+          padding-bottom: 20px
+        .icon
+          padding: 10px
+          a
+            color: $text-color-black
+            font-size: 11pt
+            text-decoration: none
+            img
+              margin-right: 5px
+              width: 32px
+              height: 28px
+              float: left
+          &:hover
+            border: 1px solid $grey-color
+            box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5)
+
+      &__all-link
+        margin-left: 10px
+        font:
+          size: 11pt
+          weight: bold
+        color: $text-color-black
