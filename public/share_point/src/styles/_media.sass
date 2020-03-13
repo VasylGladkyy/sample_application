@@ -9,17 +9,49 @@
     padding-top: 15px
     width: 200px
 
-  .img-main
-    width: 100%
-    margin: 0
-    text-align: center
+  .img-blue
+    margin-top: 10px
+    width: 90%
 
+@media (max-width: 960px)
+  .ts-find_form
+    margin-top: 20px
+
+  .main-content__images
+    display: flex
+    justify-content: center
+    flex-wrap: nowrap
+
+    .img-main
+      width: 100%
+      text-align: center
+
+    .img-blue
+      margin-top: 10px
+      width: 94.2%
+
+    .img-four
+      margin-top: 10px
+      width: 100%
+
+  .events-content
+    &__add
+      display: block
   .event-block
-    margin-top: 15px
+    margin:
+      top: 15px
+      left: 30px
+
+  .see-all
+    padding-right: 0
 
   .documents-blocks
+    display: flex
+    justify-content: center
     .block
       margin-top: 15px
+      width: 100%
+
 
 @media (min-width: 1400px)
   .img-main
@@ -30,3 +62,7 @@
 
   .img-blue
     width: 397px
+
+  .row
+    max-width: 1665px
+    margin: auto

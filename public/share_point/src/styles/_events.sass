@@ -16,6 +16,7 @@
 
   .events-content
     &__add
+      display: block
       margin-top: 15px
       .fas
         color: $site-light-color
@@ -23,9 +24,13 @@
         color: $text-color-black
         &:hover
           text-decoration: none
+
     &__blocks
-      margin-top: 10px
-      
+      margin-top: 20px
+      display: flex
+      justify-content: space-around
+      flex-wrap: nowrap
+
     .event-block
       border: 1px solid $grey-color
       border-radius: 2%
@@ -55,3 +60,6 @@
           .description
             margin-bottom: 25px
             line-height: 2
+
+.see-all
+  padding-right: 5%
