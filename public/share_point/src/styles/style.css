@@ -429,10 +429,10 @@
     width: 430px; }
 
   .img-blue {
-    width: 397px; }
-
+    width: 397px; } }
+@media(min-width: 1700px) {
   .row {
-    max-width: 1665px;
+    max-width: 1700px;
     margin: auto; } }
 .bolder {
   font-weight: bold;
